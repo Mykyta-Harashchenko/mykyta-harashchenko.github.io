@@ -1,0 +1,458 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>FastAPI Project - Mykyta Harashchenko</title>
+
+
+
+
+
+
+
+
+
+
+  <link rel="canonical" href="http://localhost:4000/fastapi/">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Mykyta Harashchenko",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+<!-- Open Graph protocol data (https://ogp.me/), used by social media -->
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Mykyta Harashchenko"> 
+<meta property="og:title" content="FastAPI Project">
+
+
+
+  <meta property="og:url" content="http://localhost:4000/fastapi/">
+
+
+
+
+
+<!-- end Open Graph protocol -->
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Mykyta Harashchenko Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<!-- Support for Academicons -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="manifest" href="http://localhost:4000/images/manifest.json"/>
+<link rel="icon" href="/images/favicon.ico"/>
+<meta name="theme-color" content="#ffffff"/>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="http://localhost:4000/">Mykyta Harashchenko</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/aiproject/">AI project</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/django/">Django</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/fastapi/">FastAPI</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/telegram/">Telegram Scraping-Bot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
+          
+          <li id="theme-toggle" class="masthead__menu-item persist tail">
+            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+          </li>
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/profile.png" class="author__avatar" alt="Mykyta Harashchenko"  fetchpriority="high" />
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Mykyta Harashchenko</h3>
+    
+    <p class="author__bio">Python Software Engineer with 2 years experience</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>Canterbury, UK</li>
+      
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>UVIK Software</li>
+      
+      
+      
+        <li><a href="mailto:garasenkonikita538@gmail.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+      
+            
+      
+      
+      
+      
+                              
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/https://github.com/Mykyta-Harashchenko"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+              
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/https://www.linkedin.com/in/mykyta-harashchenko/"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+      
+        <li><a href="https://t.me/rdhtchllppr"><i class="fab fa-fw fa-telegram icon-pad-right" aria-hidden="true"></i>Telegram</a></li>
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="FastAPI Project">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">FastAPI Project
+</h1>
+          
+        
+        
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h2 id="-github-repository">📂 <a href="https://github.com/Mykyta-Harashchenko/PhotoShare_Project">GitHub Repository</a></h2>
+
+<hr />
+
+<h3 id="-description">📌 Description</h3>
+
+<p><strong>PhotoShare</strong> is a scalable, asynchronous photo-sharing application built with <strong>FastAPI</strong>. Designed as a lightweight, Instagram-style platform, it enables users to upload photos, interact through likes and comments, and manage personal profiles — all while leveraging a <strong>modern Python backend stack</strong> with secure, token-based authentication.</p>
+
+<p>The architecture emphasizes <strong>performance</strong>, <strong>security</strong>, and <strong>modularity</strong>, making it suitable for both production-grade deployments and as a boilerplate for social media-style applications.</p>
+
+<hr />
+
+<h3 id="-problems-it-solves">🧩 Problems It Solves</h3>
+
+<ul>
+  <li>✅ Offers a modular and extensible backend foundation for photo-sharing platforms</li>
+  <li>✅ Handles image uploads, metadata, and user interactions at scale</li>
+  <li>✅ Provides JWT-secured login and registration flows</li>
+  <li>✅ Supports content moderation and role-based access via user roles</li>
+  <li>✅ Simplifies frontend consumption with RESTful, documented endpoints</li>
+  <li>✅ Integrates easily into CI/CD pipelines with containerized deployments</li>
+</ul>
+
+<hr />
+
+<h3 id="-key-features">🔑 Key Features</h3>
+
+<ul>
+  <li>🧑‍🤝‍🧑 <strong>User Roles &amp; Permissions:</strong> Admin, regular user, and other roles with permission-based access control</li>
+  <li>🖼️ <strong>Photo Management:</strong> Upload, edit, delete, and retrieve photos with support for metadata (tags, descriptions)</li>
+  <li>💬 <strong>User Interaction:</strong> Like and comment on photos; comment threading supported</li>
+  <li>🔐 <strong>Authentication &amp; Authorization:</strong> JWT-based login, registration, and token refresh mechanisms</li>
+  <li>📁 <strong>Image Handling:</strong> Secure image upload with size validation, format conversion, and optional resizing</li>
+  <li>👤 <strong>User Profiles:</strong> Public profile pages with bio, avatar, and photo feed</li>
+  <li>🔎 <strong>Search &amp; Filtering:</strong> Tag- and username-based search with paginated gallery views</li>
+  <li>🚦 <strong>Rate Limiting (Optional):</strong> Prevent abuse through throttling mechanisms (configurable)</li>
+  <li>📈 <strong>API-First Design:</strong> Easily integrable with frontend or mobile clients</li>
+</ul>
+
+<hr />
+
+<h3 id="️-technologies-used">🛠️ Technologies Used</h3>
+
+<ul>
+  <li><strong>Python 3.11</strong></li>
+  <li><strong>FastAPI</strong> — high-performance web framework (async)</li>
+  <li><strong>SQLAlchemy</strong> — ORM for relational DB abstraction</li>
+  <li><strong>PostgreSQL</strong> — relational database backend</li>
+  <li><strong>Pydantic</strong> — data validation and serialization</li>
+  <li><strong>JWT (via PyJWT)</strong> — for secure, stateless auth</li>
+  <li><strong>Alembic</strong> — for database schema migrations</li>
+  <li><strong>Uvicorn</strong> — lightning-fast ASGI server</li>
+</ul>
+
+<p><strong>DevOps &amp; Deployment:</strong></p>
+
+<ul>
+  <li><strong>Docker</strong> — containerized development and deployment</li>
+  <li><strong>GitHub Actions</strong> — automated testing &amp; CI/CD pipelines</li>
+  <li><strong>AWS / Heroku</strong> — deployment targets for scalable hosting</li>
+  <li><strong>pytest / coverage.py</strong> — testing and coverage metrics</li>
+</ul>
+
+<hr />
+
+<h3 id="-project-goal">🎯 Project Goal</h3>
+
+<p>To architect and implement a <strong>modern, production-ready backend</strong> for a social platform, focusing on:</p>
+
+<ul>
+  <li>Secure and stateless <strong>JWT-based authentication</strong></li>
+  <li>Modular and extensible architecture with <strong>ORM + migrations</strong></li>
+  <li>Seamless <strong>image upload and manipulation pipeline</strong></li>
+  <li>Asynchronous API design for responsiveness and scalability</li>
+  <li>Developer-friendly, <strong>well-documented API surface</strong> for frontend and mobile clients</li>
+</ul>
+
+<hr />
+
+<h3 id="-ideal-use-cases">🚀 Ideal Use Cases</h3>
+
+<ul>
+  <li>Photo-sharing web or mobile apps</li>
+  <li>Scalable social media backends</li>
+  <li>Projects requiring authenticated file/media uploads</li>
+  <li>Rapid prototyping for media-centric SaaS products</li>
+  <li>Portfolio systems with user interaction &amp; content moderation</li>
+</ul>
+
+<hr />
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<a href="/sitemap/">Sitemap</a>
+
+<!-- Support for MatJax -->
+<script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+<!-- Support for Plotly -->
+<script defer src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
+
+<!-- Support for Mermaid -->
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({startOnLoad:true, theme:'default'});
+    await mermaid.run({querySelector:'code.language-mermaid'});
+</script>
+
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="http://github.com/https://github.com/Mykyta-Harashchenko"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">
+  &copy; 2025 Mykyta Harashchenko, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated 2025-08-05
+</div>
+
+      </footer>
+    </div>
+
+    <script type="module" src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
