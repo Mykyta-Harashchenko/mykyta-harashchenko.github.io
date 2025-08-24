@@ -24,7 +24,6 @@ It is particularly useful in **educational** and **professional** settings to as
 - ✅ Ensures code matches the description or task requirements  
 - ✅ Helps maintain consistency and coding standards in large projects  
 - ✅ Provides instant AI-powered suggestions for improvement  
-- ✅ Integrates into CI/CD to provide feedback before PRs are merged
 
 ---
 
@@ -42,18 +41,14 @@ It is particularly useful in **educational** and **professional** settings to as
 ### 🛠️ Technologies Used
 
 - **Python 3.11**
-- **FastAPI** — for serving async API endpoints  
-- **Redis** — for job queueing & task state tracking  
-- **Celery** — background task processing  
-- **PostgreSQL** — persistent task data storage  
-- **OpenAI API** — natural language understanding and response generation  
-- **GitHub API** — code fetching, PR data parsing, comment posting  
-- **Pydantic** — schema validation and serialization  
-- **Docker** — containerized deployment  
-- **GitHub Actions** — CI/CD integration  
-- **pytest** — testing and validation  
-- **Jinja2** — template-based prompt generation  
-- **ruff / black** — code linting and formatting  
+- **FastAPI** 
+- **Redis** 
+- **PostgreSQL** 
+- **OpenAI API** 
+- **GitHub API** 
+- **Pydantic** 
+- **Docker** 
+- **Jinja2** 
 
 ---
 

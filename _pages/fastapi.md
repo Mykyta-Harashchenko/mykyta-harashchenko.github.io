@@ -45,21 +45,19 @@ The architecture emphasizes **performance**, **security**, and **modularity**, m
 
 ### 🛠️ Technologies Used
 
-- **Python 3.11**
-- **FastAPI** — high-performance web framework (async)  
-- **SQLAlchemy** — ORM for relational DB abstraction  
-- **PostgreSQL** — relational database backend  
-- **Pydantic** — data validation and serialization  
-- **JWT (via PyJWT)** — for secure, stateless auth  
-- **Alembic** — for database schema migrations  
-- **Uvicorn** — lightning-fast ASGI server  
+- **FastAPI**
+- **SQLAlchemy** 
+- **PostgreSQL** 
+- **Pydantic** 
+- **JWT (via PyJWT)** 
+- **Alembic** 
+- **Uvicorn** 
 
 **DevOps & Deployment:**
 
 - **Docker** — containerized development and deployment  
-- **GitHub Actions** — automated testing & CI/CD pipelines  
-- **AWS / Heroku** — deployment targets for scalable hosting  
-- **pytest / coverage.py** — testing and coverage metrics  
+- **Heroku** — deployment targets for scalable hosting  
+- **pytest** — testing and coverage metrics  
 
 ---
 

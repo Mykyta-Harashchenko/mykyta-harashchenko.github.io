@@ -43,13 +43,12 @@ The bot combines **asynchronous message handling**, **stateful user interactions
 
 ### 🛠️ Technologies Used
 
-- **Python 3.x**
-- **Aiogram** — Telegram bot framework using `asyncio` for high concurrency  
-- **MongoDB** — NoSQL storage for user records and session persistence  
-- **Google Translate** — for dynamic language translation  
-- **Telegram Bot API** — messaging and interaction with users  
-- **Requests / aiohttp / BeautifulSoup** — scraping external sources  
-- **Logging & Exception Handling** — production-safe behavior  
+- **Aiogram** 
+- **MongoDB**  
+- **Google Translate**  
+- **Telegram Bot API** 
+- **Requests / aiohttp / BeautifulSoup**  
+- **Logging & Exception Handling** 
 
 ---
 

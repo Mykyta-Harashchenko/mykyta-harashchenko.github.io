@@ -43,13 +43,12 @@ Ideal for quote collectors, inspirational sites, and educational tools, this app
 ### 🛠️ Technologies Used
 
 - **Python 3.x**
-- **Django** — core web framework  
-- **Django REST Framework (DRF)** — API layer  
-- **JWT (JSON Web Tokens)** — secure authentication  
-- **PostgreSQL** — relational database backend  
-- **HTML/CSS/JS** — basic frontend rendering  
-- **Docker** — containerization (optional)  
-- **pytest / coverage** — testing suite (if included)  
+- **Django** 
+- **Django REST Framework (DRF)** 
+- **JWT (JSON Web Tokens)** 
+- **PostgreSQL** 
+- **HTML/CSS/JS** 
+- **Docker** 
 
 ---
 
